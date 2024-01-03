@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String , modifier: Modifier = Modifier) {
-    Surface(color = Color.Yellow) {
+    Surface(color = Color.Cyan) {
         Text(
             text = "Hi, my name is $name Gunjal",
             modifier = modifier.padding(24.dp)
